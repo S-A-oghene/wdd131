@@ -114,6 +114,8 @@ main {
 .state-country,
 .resource-flex {
   display: flex;
+  min-width: auto;
+  min-height: auto;
 }
 
 .state-country p {
