@@ -1,0 +1,152 @@
+:root {
+  --primary-color: #34495e;
+  --secondary-color: #2c3e50;
+  --text-color: #f2f3f4;
+  --box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  /* max-width: 1000px;
+    margin: 0 auto; */
+  background-color: #f2f3f4;
+}
+
+header {
+  background-color: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  padding: 1rem 0;
+}
+
+.container {
+  margin: auto;
+  padding: 0px 0px;
+}
+
+header .navbar {
+  display: block;
+  text-align: center;
+  min-height: 70px;
+  padding: 0px 0px;
+  border-bottom: 1px solid #0000001a;
+}
+
+header /*.navbar*/ .title-hamburger {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 70px;
+  padding: 0px 20px;
+  border-bottom: 1px solid #0000001a;
+  box-shadow: var(--box-shadow);
+}
+
+header .hamburger .bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  background-color: var(--text-color);
+  transition: all 0.3s ease-in-out;
+}
+
+header .navbar .hamburger {
+  display: block;
+  cursor: pointer;
+}
+
+header .navbar .hamburger.open > span {
+  display: none;
+}
+
+header .navbar .hamburger.open::before {
+  content: "❌";
+}
+
+header .nav-items {
+  background-color: var(--secondary-color);
+  display: none;
+  list-style: none;
+  justify-content: space-between;
+}
+
+header .nav-items.open {
+  display: flex;
+  flex-direction: column;
+}
+
+header h1 {
+  font-size: 27px;
+  color: var(--text-color);
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+header .nav-items li {
+  border-radius: 3px;
+  font-weight: 600;
+}
+
+header .nav-items li a {
+  display: block;
+  padding: 1rem;
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+header .nav-items li a:hover {
+  font-weight: 500;
+  background-color: #082e65;
+  color: #f6f594;
+}
+
+main .main-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+main .temples h2 {
+  font-size: 24px;
+  text-align: center;
+  padding: 20px;
+}
+
+main .temples .images-temples {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 5px;
+  place-items: center;
+}
+
+main .temples .images-temples img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 5px;
+  box-shadow: var(--box-shadow);
+  transition: box-shadow 0.25s ease-in-out;
+}
+
+main .temples .images-temples img:hover {
+  box-shadow: 0 0 10px #343434;
+}
+
+footer {
+  margin: 20px auto;
+  background-color: #082e65;
+  color: #f2f3f4;
+  padding: 2rem;
+  text-align: center;
+  box-shadow: var(--box-shadow);
+}
+
+footer #lastModified {
+  color: yellow;
+}
