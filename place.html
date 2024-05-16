@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD131 | Zanzibar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap"
+      rel="stylesheet">
+    <meta name="author" content="Eseoghene Gbunoghene">
+    <meta
+      name="description"
+      content="Unwind in Zanzibar's Paradise! Discover the enchanting island of Zanzibar, Tanzania, where turquoise waters lap at pristine beaches and vibrant Swahili culture thrives. Explore bustling spice plantations, swim alongside playful dolphins, and delve into the island's rich history.
+
+      Immerse Yourself in Nature & Culture:  This captivating webpage allows you to experience Zanzibar's natural beauty and cultural heritage from the comfort of your screen.
+      
+      Easy Navigation & Engaging Content:  The user-friendly layout and informative content ensure a smooth and enjoyable browsing experience.">
+    <link rel="stylesheet" href="styles/place.css">
+    <script defer src="scripts/place.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Zanzibar</h1>
+    </header>
+    <main>
+      <div class="hero">
+        <picture>
+          <source
+            media="(min-width: 1000px)"
+            srcset="images/zanzibar-large-0.webp">
+          <img
+            src="images/paradise-small.webp"
+            alt="A beach house at Zanzibar, Tanzania"
+            width="700"
+            height="350">
+        </picture>
+      </div>
+      <div class="data">
+        <h2>Data</h2>
+        <div class="data-content">
+          <p class="label">Area:</p>
+          <p class="value">2,460 km²</p>
+        </div>
+
+        <div class="data-content">
+          <p class="label">Population:</p>
+          <p class="value">1.3M</p>
+        </div>
+
+        <div class="data-content">
+          <p class="label">Capital:</p>
+          <p class="value">Zanzibar City</p>
+        </div>
+
+        <div class="data-content">
+          <p class="label">Languages:</p>
+          <p class="value">Swahili, English</p>
+        </div>
+
+        <div class="data-content">
+          <p class="label">Currency:</p>
+          <p class="value">Tanzanian Shilling (TZS)</p>
+        </div>
+
+        <div class="data-content">
+          <p class="label">Time Zone:</p>
+          <p class="value">EAT (East Africa Time) - UTC+3</p>
+        </div>
+
+        <div class="data-content">
+          <p class="label">Calling Code:</p>
+          <p class="value">+255</p>
+        </div>
+
+        <div class="data-content">
+          <p class="label">Internet TLD:</p>
+          <p class="value">.tz</p>
+        </div>
+      </div>
+      <div class="weather">
+        <!-- <div class="icon-weather">
+            <h2>Weather</h2>
+          <img
+            class="weather-icon"
+            src="images/weather-icon.svg"
+            alt="Scattered clouds"
+          />
+        </div> -->
+        <h2 class="weather-h2">Weather</h2>
+        <div class="icon-weather">
+          <img
+            class="weather-icon"
+            src="images/weather-icon.svg"
+            alt="Scattered clouds">
+        </div>
+
+        <div class="data-content">
+          <p class="label">Temperature:</p>
+          <p class="value">78&deg;F</p>
+        </div>
+        <div class="data-content">
+          <p class="label">Conditions:</p>
+          <p class="value">Scattered clouds</p>
+        </div>
+
+        <div class="data-content">
+          <p class="label">Wind:</p>
+          <p class="value">12 - 23 mph</p>
+        </div>
+
+        <div class="data-content">
+          <p class="label">Wind Chill:</p>
+          <p class="value"><span id="windchill">91&deg;F</span></p>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p id="copyright-info">
+        &copy;
+        <span id="currentyear"></span>
+        &#127796; Eseoghene Gbunoghene Jacob &#127796;
+        <span>Nigeria</span>
+      </p>
+      <p id="lastModified"></p>
+    </footer>
+  </body>
+</html>
