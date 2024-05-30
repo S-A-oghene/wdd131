@@ -1,7 +1,7 @@
 const inputScripture = document.querySelector("#favchap");
 const addButton = document.querySelector("button");
 const listScripture = document.querySelector("#list");
-const message = document.querySelector("#message");
+// const message = document.querySelector("#message");
 
 addButton.addEventListener('click', addScripture);
 
