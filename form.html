@@ -7,8 +7,9 @@
     <meta name="author" content="Eseoghene Gbunoghene">
     <meta
       name="description"
-      content="A dynamic HTML form with JavaScript and CSS. A product review form with selectable product options, star ratings, date inputs, checkboxes, and text areas.">
-    <link rel="stylesheet" href="styles/form.css">
+      content="A dynamic HTML form with JavaScript and CSS. A product review form with selectable product options, star ratings, date inputs, checkboxes, and text areas."
+    >
+    <link rel="stylesheet" href="styles/form.css" >
     <script defer src="scripts/form.js"></script>
   </head>
   <body>
@@ -78,7 +79,51 @@
           </label>
           <div>
             Useful Features
-            <div id="usefulFeatures"></div>
+            <label
+              ><input
+                type="checkbox"
+                id="feature1"
+                name="usefulFeatures"
+                value="Long Battery Life"
+              >
+              Long Battery Life</label
+            >
+            <label
+              ><input
+                type="checkbox"
+                id="feature2"
+                name="usefulFeatures"
+                value="High Resolution"
+              >
+              High Resolution</label
+            >
+            <label
+              ><input
+                type="checkbox"
+                id="feature3"
+                name="usefulFeatures"
+                value="Waterproof"
+              >
+              Waterproof</label
+            >
+            <label
+              ><input
+                type="checkbox"
+                id="feature4"
+                name="usefulFeatures"
+                value="Bluetooth Connectivity"
+              >
+              Bluetooth Connectivity</label
+            >
+            <label
+              ><input
+                type="checkbox"
+                id="feature5"
+                name="usefulFeatures"
+                value="Fast Charging"
+              >
+              Fast Charging</label
+            >
           </div>
           <label
             >Written Review
@@ -89,10 +134,10 @@
           <legend>Personal Information</legend>
           <label
             >User Name
-            <input type="text" id="userName" name="userName" >
+            <input type="text" id="userName" name="userName">
           </label>
         </fieldset>
-        <input type="submit" value="Review Product &#187;" >
+        <input type="submit" value="Review Product &#187;">
       </form>
     </main>
     <footer>
