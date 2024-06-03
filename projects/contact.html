@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - DevPortfolio Pro</title>
+    <link rel="stylesheet" href="styles/contact.css">
+    <script defer src="scripts/script.js"></script>
+    <meta name="description" content="DevPortfolio Pro - Contact">
+  </head>
+  <body>
+    <header>
+      <h1>Contact Me</h1>
+      <nav>
+        <div class="hamburger" id="hamburger">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </div>
+        <ul class="nav-items" id="navItems">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h2>Contact Form</h2>
+        <form>
+          <fieldset>
+            <legend>Contact Information</legend>
+            <label for="name">Name:</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Your Name"
+              required>
+            <label for="email">Email:</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Your Email"
+              required>
+            <label for="message">Message:</label>
+            <textarea
+              id="message"
+              name="message"
+              placeholder="Your Message"
+              required
+            ></textarea>
+            <button type="submit">Contact Me</button>
+          </fieldset>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p id="copyright-info">
+        &copy;
+        <span id="currentyear"></span>
+        &#127796; Eseoghene Gbunoghene Jacob &#127796;
+        <span>Nigeria</span>
+      </p>
+      <p id="lastModified"></p>
+    </footer>
+  </body>
+</html>

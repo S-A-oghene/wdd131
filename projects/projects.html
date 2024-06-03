@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - DevPortfolio Pro</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <script defer src="scripts/script.js"></script>
+    <meta name="description" content="DevPortfolio Pro - Projects">
+  </head>
+  <body>
+    <header>
+      <h1>My Projects</h1>
+      <nav>
+        <div class="hamburger" id="hamburger">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </div>
+        <ul class="nav-items" id="navItems">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h2>Projects</h2>
+        <div class="filters">
+          <button class="filter-btn" data-category="all">All</button>
+          <button class="filter-btn" data-category="web">
+            Web Development
+          </button>
+          <button class="filter-btn" data-category="app">
+            App Development
+          </button>
+        </div>
+        <div class="projects">
+          <div class="project web">
+            <h3>Web Development</h3>
+            <p>
+              <strong>Wet Paddle Rafting</strong>
+              Our goal is to offer thrilling and safe white-water rafting
+              experiences that connect people with the beauty of nature. It
+              includes fostering a love for outdoor adventure while ensuring the
+              preservation of our precious waterways.
+            </p>
+            <p>
+              <strong>Core Values: -</strong> Excitement of the river The bond
+              of teamwork Tranquility of the wilderness.
+            </p>
+            <p><strong>Technologies used:</strong> HTML & CSS</p>
+            <img
+              src="images/rafting-site.webp"
+              alt="Rafting site image"
+              loading="lazy">
+          </div>
+          <div class="project app">
+            <h3>App Development</h3>
+            <p>
+              A practical exercise for learning JavaScript programming concepts,
+              particularly focusing on functions, event handling, decision
+              structures, and array manipulation.
+            </p>
+            <p><strong>Technologies used:</strong> HTML, CSS & JavaScript</p>
+            <img
+              src="images/calculator-JavaScript.webp"
+              alt="javaScript calculator image"
+              loading="lazy">
+          </div>
+          <!-- Additional projects here -->
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p id="copyright-info">
+        &copy;
+        <span id="currentyear"></span>
+        &#127796; Eseoghene Gbunoghene Jacob &#127796;
+        <span>Nigeria</span>
+      </p>
+      <p id="lastModified"></p>
+    </footer>
+  </body>
+</html>

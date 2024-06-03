@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects - DevPortfolio Pro</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+    <script defer src="scripts/script.js"></script>
+    <meta name="description" content="DevPortfolio Pro - Projects" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+          <div class="navbar">
+              <div class="title-hamburger">
+                  <h1>My Projects</h1>
+                  <div class="hamburger" id="hamburger">
+                      <span class="hamburger-line"></span>
+                      <span class="hamburger-line"></span>
+                      <span class="hamburger-line"></span>
+                  </div>
+              </div>
+              <nav class="nav-items" id="navItems">
+                  <ul class="navigation">
+                      <li><a href="index.html">Home</a></li>
+                      <li><a href="about.html">About</a></li>
+                      <li><a href="projects.html">Projects</a></li>
+                      <li><a href="contact.html">Contact</a></li>
+                  </ul>
+              </nav>
+          </div>
+      </div>
+  </header>
+  <main>
+      <section>
+        <h2>Projects</h2>
+        <div class="filters">
+          <button class="filter-btn" data-category="all">All</button>
+          <button class="filter-btn" data-category="web">
+            Web Development
+          </button>
+          <button class="filter-btn" data-category="app">
+            App Development
+          </button>
+        </div>
+        <div class="projects">
+          <div class="project web">
+            <h3>Project 1</h3>
+            <p>
+              This project is a web application that allows users to manage
+              tasks efficiently. It includes features such as task creation,
+              editing, deletion, and categorization.
+            </p>
+            <p>
+              <strong>Technologies used:</strong> HTML, CSS, JavaScript, React,
+              Node.js
+            </p>
+            <img
+              src="images/project1-placeholder.png"
+              alt="Project 1 Placeholder"
+              loading="lazy"
+            />
+          </div>
+          <div class="project app">
+            <h3>Project 2</h3>
+            <p>
+              This project is a mobile application designed to help users track
+              their fitness goals. It includes functionalities like workout
+              logging, progress tracking, and goal setting.
+            </p>
+            <p><strong>Technologies used:</strong> Java, Kotlin, Android SDK</p>
+            <img
+              src="images/project2-placeholder.png"
+              alt="Project 2 Placeholder"
+              loading="lazy"
+            />
+          </div>
+          <!-- Additional projects here -->
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2024 DevPortfolio Pro. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
